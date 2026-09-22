@@ -1,0 +1,7 @@
+﻿metric,before,after
+source_records,5606,
+processed_records,,5606
+source_columns,20,
+processed_columns,,53
+validation_issues,,1
+duplicate_candidates,,356

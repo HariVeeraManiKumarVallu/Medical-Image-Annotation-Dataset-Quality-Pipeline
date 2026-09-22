@@ -1,0 +1,54 @@
+﻿column,in_source,in_processed,source_dtype,processed_dtype
+Finding Labels,True,True,object,object
+Follow-up #,True,True,int64,int64
+Image Index,True,True,object,object
+OriginalImageHeight,True,True,int64,int64
+OriginalImagePixelSpacing_x,True,True,float64,float64
+OriginalImagePixelSpacing_y,True,True,float64,float64
+OriginalImageWidth,True,True,int64,int64
+Patient Age,True,True,object,object
+Patient Gender,True,True,object,object
+Patient ID,True,True,int64,int64
+View Position,True,True,object,object
+ambiguous_match,True,True,bool,bool
+anomaly_flag,False,True,,bool
+anomaly_score,False,True,,float64
+aspect_ratio,False,True,,float64
+background_ratio,False,True,,float64
+blur_score,False,True,,float64
+border_dark_ratio,False,True,,float64
+bright_pixel_ratio,False,True,,float64
+clip_high_percent,False,True,,float64
+clip_low_percent,False,True,,float64
+contrast,False,True,,float64
+dark_pixel_ratio,False,True,,float64
+dataset,True,True,object,object
+dhash,False,True,,object
+duplicate_flags,False,True,,object
+edge_density,False,True,,float64
+height,False,True,,int64
+image_found,True,True,bool,bool
+image_id,True,True,object,object
+image_match_count,True,True,int64,int64
+image_path,True,True,object,object
+label_count,True,True,int64,int64
+labels,True,True,object,object
+match_status,True,True,object,object
+median_pixel,False,True,,float64
+needs_review,False,True,,bool
+noise_estimate,False,True,,float64
+nonzero_ratio,False,True,,float64
+p01_pixel,False,True,,float64
+p99_pixel,False,True,,float64
+phash,False,True,,object
+pixel_entropy,False,True,,float64
+qc_status,False,True,,object
+quality_flags,False,True,,object
+quality_score,False,True,,float64
+quality_status,False,True,,object
+readable,False,True,,bool
+sha256,False,True,,object
+unique_pixel_count,False,True,,int64
+unique_pixel_ratio,False,True,,float64
+validation_flags,False,True,,object
+width,False,True,,int64

@@ -1,0 +1,192 @@
+{
+  "columns": [
+    {
+      "name": "Image Index",
+      "dtype": "object"
+    },
+    {
+      "name": "Finding Labels",
+      "dtype": "object"
+    },
+    {
+      "name": "Patient ID",
+      "dtype": "int64"
+    },
+    {
+      "name": "Patient Age",
+      "dtype": "int64"
+    },
+    {
+      "name": "Patient Gender",
+      "dtype": "object"
+    },
+    {
+      "name": "View Position",
+      "dtype": "object"
+    },
+    {
+      "name": "dataset",
+      "dtype": "object"
+    },
+    {
+      "name": "image_id",
+      "dtype": "object"
+    },
+    {
+      "name": "image_path",
+      "dtype": "object"
+    },
+    {
+      "name": "image_found",
+      "dtype": "bool"
+    },
+    {
+      "name": "image_match_count",
+      "dtype": "int64"
+    },
+    {
+      "name": "ambiguous_match",
+      "dtype": "bool"
+    },
+    {
+      "name": "labels",
+      "dtype": "object"
+    },
+    {
+      "name": "label_count",
+      "dtype": "int64"
+    },
+    {
+      "name": "match_status",
+      "dtype": "object"
+    },
+    {
+      "name": "readable",
+      "dtype": "object"
+    },
+    {
+      "name": "width",
+      "dtype": "float64"
+    },
+    {
+      "name": "height",
+      "dtype": "float64"
+    },
+    {
+      "name": "aspect_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "median_pixel",
+      "dtype": "float64"
+    },
+    {
+      "name": "p01_pixel",
+      "dtype": "float64"
+    },
+    {
+      "name": "p99_pixel",
+      "dtype": "float64"
+    },
+    {
+      "name": "dark_pixel_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "bright_pixel_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "pixel_entropy",
+      "dtype": "float64"
+    },
+    {
+      "name": "unique_pixel_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "unique_pixel_count",
+      "dtype": "float64"
+    },
+    {
+      "name": "edge_density",
+      "dtype": "float64"
+    },
+    {
+      "name": "noise_estimate",
+      "dtype": "float64"
+    },
+    {
+      "name": "background_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "border_dark_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "blur_score",
+      "dtype": "float64"
+    },
+    {
+      "name": "contrast",
+      "dtype": "float64"
+    },
+    {
+      "name": "clip_low_percent",
+      "dtype": "float64"
+    },
+    {
+      "name": "clip_high_percent",
+      "dtype": "float64"
+    },
+    {
+      "name": "nonzero_ratio",
+      "dtype": "float64"
+    },
+    {
+      "name": "quality_status",
+      "dtype": "object"
+    },
+    {
+      "name": "quality_flags",
+      "dtype": "object"
+    },
+    {
+      "name": "sha256",
+      "dtype": "object"
+    },
+    {
+      "name": "phash",
+      "dtype": "object"
+    },
+    {
+      "name": "dhash",
+      "dtype": "object"
+    },
+    {
+      "name": "validation_flags",
+      "dtype": "object"
+    },
+    {
+      "name": "duplicate_flags",
+      "dtype": "object"
+    },
+    {
+      "name": "anomaly_score",
+      "dtype": "float64"
+    },
+    {
+      "name": "anomaly_flag",
+      "dtype": "bool"
+    },
+    {
+      "name": "needs_review",
+      "dtype": "bool"
+    },
+    {
+      "name": "qc_status",
+      "dtype": "object"
+    }
+  ]
+}
