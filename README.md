@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical Image Annotation and Dataset Quality Pipeline
 
 This project checks medical-image datasets for metadata and image-quality problems. It does not diagnose disease or determine clinical truth.
@@ -61,3 +62,7 @@ Use `cleaned_manifest.csv` as the central table. Use `image_id` as its key for i
 ## Limitations
 
 Advanced medical-vision tasks such as lung segmentation, AP/PA classification, image registration, and text-marker detection require suitable labeled data or validated pretrained models. The current pipeline does not pretend that simple heuristics are clinical models.
+=======
+# Medical-Image-Annotation-Dataset-Quality-Pipeline
+A Python medical-image dataset quality-control pipeline that validates metadata, measures image quality, detects duplicates and anomalies, generates reports, and exports Power BI-ready data.
+>>>>>>> origin/main
