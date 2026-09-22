@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local data
+data/*/raw/images/**
+data/*/raw/*.csv
+data/Chest_XRay_Dataset/xray_images/**
+data/Chest_XRay_Dataset/Ground_Truth.csv
+
+# Generated data
+data/*/processed/*.csv
+data/*/processed/**
+review_logs/*.csv
+reports/*.html
+reports/datasheets/*.md
+reports/datasheets.backup
+reports/visualizations/**
+reports/duplicate_comparisons/**
+outputs/metadata_schema.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env

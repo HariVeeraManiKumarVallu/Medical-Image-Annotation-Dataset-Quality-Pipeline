@@ -1,0 +1,70 @@
+dataset_name: nih_sample
+
+label_source: csv
+
+image_root: data/nih_sample/raw/images
+labels_csv: data/nih_sample/raw/sample_labels.csv
+
+processed_root: data/nih_sample/processed
+
+datasheet_path: reports/datasheets/nih_sample_datasheet.md
+
+separator: "|"
+
+image_filename_column: Image Index
+label_column: Finding Labels
+
+age_column: Patient Age
+gender_column: Patient Gender
+view_column: View Position
+patient_id_column: Patient ID
+
+required_columns:
+  - Image Index
+  - Finding Labels
+  - Follow-up #
+  - Patient ID
+  - Patient Age
+  - Patient Gender
+  - View Position
+  - OriginalImageWidth
+  - OriginalImageHeight
+  - OriginalImagePixelSpacing_x
+  - OriginalImagePixelSpacing_y
+
+allowed_gender:
+  - M
+  - F
+
+allowed_view_position:
+  - AP
+  - PA
+
+allowed_labels:
+  - Atelectasis
+  - Cardiomegaly
+  - Consolidation
+  - Edema
+  - Effusion
+  - Emphysema
+  - Fibrosis
+  - Hernia
+  - Infiltration
+  - Mass
+  - Nodule
+  - Pleural_Thickening
+  - Pneumonia
+  - Pneumothorax
+  - No Finding
+
+quality_thresholds:
+  blur_min: 20.0
+  contrast_min: 10.0
+  clip_percent_max: 5.0
+  blank_std_max: 2.0
+  blank_nonzero_ratio_min: 0.05
+
+hashing:
+  resize_max_side: 512
+  near_duplicate_distance: 6
+  bucket_prefix_hex: 4

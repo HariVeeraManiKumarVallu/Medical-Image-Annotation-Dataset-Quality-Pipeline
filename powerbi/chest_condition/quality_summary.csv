@@ -1,0 +1,10 @@
+﻿metric,value
+total_records,111010.0
+matched_records,3681.0
+missing_records,107329.0
+pass_records,2511.0
+review_records,1170.0
+unavailable_records,107329.0
+validation_issues,107358.0
+duplicate_candidates,153.0
+average_quality_score,41.894153679848664
